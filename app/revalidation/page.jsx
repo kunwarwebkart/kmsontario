@@ -16,6 +16,8 @@ const explainer = `
 This page perfoms a \`fetch\` on the server to get a random article from Wikipedia. 
 The fetched data is then cached with a tag named "${tagName}" and a maximum age of ${revalidateTTL} seconds.
 
+<p><strong>Tags:</strong> best movers in Canada, <a href="https://kmsontario.ca/packers-and-movers-in-cobourg.php"><strong>Cobourg movers</strong></a>, <a href="https://kmsontario.ca/packer-and-mover-in-napanee.php"><strong>Napanee movers</strong></a>, <a href="https://kmsontario.ca/packer-and-mover-in-belleville.php"><strong>Belleville movers</strong></a>,&nbsp;</p>
+
 ~~~jsx
 const url = 'https://en.wikipedia.org/api/rest_v1/page/random/summary';
 
