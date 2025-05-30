@@ -4,7 +4,7 @@ import { Markdown } from 'components/markdown';
 import { SubmitButton } from 'components/submit-button';
 
 export const metadata = {
-    title: 'On-Demand Revalidation'
+    title: 'Kmsontario'
 };
 
 const tagName = 'randomWiki';
