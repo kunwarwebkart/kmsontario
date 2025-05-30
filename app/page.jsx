@@ -34,8 +34,8 @@ export default function Page() {
         <div className="flex flex-col gap-12 sm:gap-16">
             <section>
                 <ContextAlert className="mb-6" />
-                <h1 className="mb-4">Netlify Platform Starter - Next.js</h1>
-                <p className="mb-6 text-lg">Get started with Next.js and Netlify in seconds.</p>
+                <h1 className="mb-4">Packers and Movers in Canada</h1>
+                <p className="mb-6 text-lg">Get started with kmsontario and Netlify in seconds.</p>
                 <Link href="https://docs.netlify.com/frameworks/next-js/overview/" className="btn btn-lg sm:min-w-64">
                     Read the Docs
                 </Link>
