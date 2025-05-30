@@ -27,7 +27,7 @@ async function RandomArticleComponent() {
 }
 ~~~
 
-After the set time has passed, the first request for this page would trigger its rebuild in the background. When the new page is ready, subsequent requests would return the new page - 
+the first request for this page would trigger its rebuild in the background. When the new page is ready, subsequent requests would return the new page - 
 see [\`stale-white-revalidate\`](https://www.netlify.com/blog/swr-and-fine-grained-cache-control/).
 
 Alternatively, if the cache tag is explicitly invalidated by \`revalidateTag('${tagName}')\`, any page using that tag would be rebuilt in the background when requested.
